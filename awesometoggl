@@ -1,0 +1,8 @@
+#!/bin/sh
+THIS=$(dirname $(readlink -f $0))
+while true
+do
+    cd $THIS
+    bundle exec ruby main.rb
+    sleep 5
+done
