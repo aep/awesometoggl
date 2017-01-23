@@ -9,7 +9,7 @@ toggl for awesome wm
 Usage
 ------
 
-echo myapitoken123 > ~/.toggl
+echo -n myapitoken123 > ~/.toggl
 
 
 
